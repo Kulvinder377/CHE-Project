@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Trends: Global and Indian Data</title>
+    <link rel="stylesheet" href="temp.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Temperature Trends</h1>
+      <p>
+        Exploring the changes in temperature globally and in India through data
+        visualization.
+      </p>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="temp.html">Temperature Trends</a></li>
+        <li><a href="preci.html">Precipitation Levels</a></li>
+        <li><a href="co2.html">Carbon Dioxide Concentration</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="global">
+        <h2>Global Temperature Trends</h2>
+        <p>
+          Global temperature trends reflect the profound impact of climate
+          change on the Earth’s environment. Over the last century, average
+          temperatures have risen significantly, mainly due to human activities
+          such as burning fossil fuels, deforestation, and industrial processes.
+          This increase has been accompanied by more frequent extreme weather
+          events, rising sea levels, and disruptions to ecosystems.
+          Understanding these trends is crucial for predicting future climate
+          scenarios and developing effective strategies for mitigation and
+          adaptation. The following graph illustrates the global average
+          temperature rise from 2000 to 2020, highlighting key milestones in
+          climate policy and natural events that have contributed to these
+          changes.
+        </p>
+        <canvas id="globalTempChart"></canvas>
+      </section>
+
+      <section id="indian">
+        <h2>Indian Temperature Trends</h2>
+        <p>
+          India, with its diverse climate zones, has experienced significant
+          temperature fluctuations over the years. The Indian subcontinent has
+          been warming at an alarming rate, impacting agriculture, water
+          resources, and public health. Increased temperatures have led to
+          severe droughts in some regions and flooding in others, disrupting the
+          livelihoods of millions. In recent years, heatwaves have become more
+          common, prompting concerns about heat-related illnesses and mortality.
+          This section presents a detailed analysis of temperature trends in
+          India, showcasing how climate change affects this densely populated
+          country.
+        </p>
+        <canvas id="indianTempChart"></canvas>
+      </section>
+
+      <section id="tables">
+        <h2>Temperature Data Comparison</h2>
+        <p>
+          The table below provides a comparative view of temperature trends over
+          the years in both global and Indian contexts. It highlights the
+          average temperatures recorded each year along with notable climatic
+          events that have influenced these figures. This comparative analysis
+          serves to emphasize the urgent need for climate action, as the effects
+          of rising temperatures are felt worldwide but manifest differently in
+          various regions.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Global Average Temp (°C)</th>
+              <th>Indian Average Temp (°C)</th>
+              <th>Significant Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>14.5</td>
+              <td>23.0</td>
+              <td>Stable climate conditions</td>
+            </tr>
+            <tr>
+              <td>2005</td>
+              <td>14.8</td>
+              <td>23.2</td>
+              <td>Increased industrial emissions</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>15.0</td>
+              <td>23.5</td>
+              <td>Record heatwaves in India</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>15.2</td>
+              <td>23.8</td>
+              <td>El Niño effects, severe droughts</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>15.5</td>
+              <td>24.0</td>
+              <td>Major flooding and heatwaves</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="photos">
+        <h2>Impact Photos</h2>
+        <p>
+          Photographic evidence of temperature-related impacts provides a
+          visceral understanding of climate change effects. Images capturing
+          heatwaves, droughts, floods, and melting glaciers serve as powerful
+          reminders of the urgent need to address global warming. This gallery
+          includes various scenarios, showcasing how temperature changes have
+          affected ecosystems and human communities. By engaging with these
+          images, we hope to foster a greater awareness of climate change and
+          inspire action to mitigate its effects.
+        </p>
+        <div class="photo-gallery">
+          <img
+            src="img/_107544317_heatwave_640_v3-nc.png"
+            alt="Heatwave in Eorope"
+          />
+          <figcaption>Heatwave in Eorope</figcaption>
+          <img
+            src="img/istockphoto-1061549950-612x612.jpg"
+            alt="Melting glaciers in Alaska"
+          />
+          <figcaption>Melting glaciers in Alaska</figcaption>
+          <img
+            src="img/image-for-drought.png"
+            alt="Drought conditions in California"
+          />
+          <figcaption>Drought conditions in California</figcaption>
+          <img
+            src="img/in-mumbai_heavyrain.jpg"
+            alt="Flooding in India due to heavy rains"
+          />
+          <figcaption>Flooding in India due to heavy rains</figcaption>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Temperature Trends Project</p>
+    </footer>
+
+    <script src="temp.js"></script>
+  </body>
+</html>

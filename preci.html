@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precipitation Levels: Global and Indian Data</title>
+    <link rel="stylesheet" href="preci.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Precipitation Levels</h1>
+      <p>
+        Exploring global and Indian precipitation trends through data
+        visualization.
+      </p>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="temp.html">Temperature Trends</a></li>
+        <li><a href="preci.html">Precipitation Levels</a></li>
+        <li><a href="co2.html">Carbon Dioxide Concentration</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="global">
+        <h2>Global Precipitation Levels</h2>
+        <p>
+          Precipitation is a crucial component of the Earth's climate system. It
+          includes all forms of water, liquid or solid, that falls from the
+          atmosphere to the surface of the Earth. Over the years, global
+          precipitation patterns have been influenced by climate change, with
+          some regions experiencing increased rainfall while others face severe
+          droughts. The impacts of these changes are significant, affecting
+          agriculture, water resources, and ecosystems. The following graph
+          illustrates the trend of average global precipitation from 2000 to
+          2020, highlighting fluctuations and the overall increase in extreme
+          weather events.
+        </p>
+        <canvas id="globalPrecipitationChart"></canvas>
+      </section>
+
+      <section id="indian">
+        <h2>Indian Precipitation Levels</h2>
+        <p>
+          India experiences a diverse range of precipitation levels due to its
+          varied geography and monsoon climate. The Indian monsoon is a critical
+          weather system that brings heavy rainfall to the country, especially
+          during the summer months. However, recent years have shown shifts in
+          precipitation patterns, with some areas receiving excessive rainfall
+          and others facing shortages. These changes pose challenges for
+          agriculture, water supply, and disaster management. The following
+          graph presents the trend of average annual precipitation in India from
+          2000 to 2020, emphasizing the variability and importance of
+          understanding these patterns for future planning.
+        </p>
+        <canvas id="indianPrecipitationChart"></canvas>
+      </section>
+
+      <section id="tables">
+        <h2>Precipitation Data Comparison</h2>
+        <p>
+          The table below offers a comparative overview of average annual
+          precipitation levels for global and Indian contexts from 2000 to 2020.
+          It highlights the differences in precipitation patterns alongside
+          notable climatic events that may have influenced these trends.
+          Understanding these comparisons is vital for policymakers and
+          researchers as they work to address the challenges posed by changing
+          precipitation levels.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Global Precipitation (mm)</th>
+              <th>Indian Precipitation (mm)</th>
+              <th>Significant Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>840</td>
+              <td>950</td>
+              <td>Normal monsoon</td>
+            </tr>
+            <tr>
+              <td>2005</td>
+              <td>860</td>
+              <td>900</td>
+              <td>Severe floods in India</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>870</td>
+              <td>920</td>
+              <td>Heavy monsoon</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>830</td>
+              <td>880</td>
+              <td>Drought in parts of India</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>850</td>
+              <td>1000</td>
+              <td>Unpredictable rainfall patterns</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="photos">
+        <h2>Impact Photos</h2>
+        <p>
+          The effects of precipitation levels are visible in various ways, from
+          agricultural impacts to flooding. This gallery showcases images that
+          illustrate the consequences of changing precipitation patterns,
+          highlighting both the positive aspects, such as thriving crops, and
+          the negative impacts, such as flooding and water scarcity. By
+          observing these impacts, we hope to raise awareness about the
+          importance of monitoring and understanding precipitation levels in
+          relation to climate change.
+        </p>
+        <div class="photo-gallery">
+          <img src="img/download (5).jpg" alt="Flood in Uttar Pradesh, India" />
+          <figcaption>Flood in Uttar Pradesh, India</figcaption>
+          <img
+            src="img/istockphoto-1327831544-612x612.jpg"
+            alt="Crop Field in India"
+          />
+          <figcaption>Crop Field in India</figcaption>
+          <img src="img/in-mumbai_rain_0.webp" alt="Heavy Rain in Mumbai" />
+          <figcaption>Heavy Rain in Mumbai</figcaption>
+          <img
+            src="img/Drought-preparedness-in-India.jpg"
+            alt="Drought Conditions in India"
+          />
+          <figcaption>Drought Conditions in India</figcaption>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Precipitation Levels Project</p>
+    </footer>
+
+    <script src="preci.js"></script>
+  </body>
+</html>

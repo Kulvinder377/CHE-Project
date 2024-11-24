@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbon Dioxide Levels: Global and Indian Data</title>
+    <link rel="stylesheet" href="co2.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Carbon Dioxide Levels</h1>
+      <p>
+        Analyzing CO2 levels globally and in India through data visualization.
+      </p>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="temp.html">Temperature Trends</a></li>
+        <li><a href="preci.html">Precipitation Levels</a></li>
+        <li><a href="co2.html">Carbon Dioxide Concentration</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="global">
+        <h2>Global CO2 Levels</h2>
+        <p>
+          Carbon dioxide (CO2) is a significant greenhouse gas that plays a
+          crucial role in climate change. Over the past century, global CO2
+          levels have increased dramatically due to human activities, including
+          burning fossil fuels, deforestation, and industrial processes. This
+          rise in CO2 concentrations has led to an enhanced greenhouse effect,
+          resulting in global warming and extreme weather events. Monitoring
+          atmospheric CO2 levels is essential for understanding climate dynamics
+          and assessing the effectiveness of mitigation strategies. The
+          following graph illustrates the global average CO2 levels from 2000 to
+          2020, highlighting the trend of increasing concentrations and its
+          implications for the environment.
+        </p>
+        <canvas id="globalCO2Chart"></canvas>
+      </section>
+
+      <section id="indian">
+        <h2>Indian CO2 Levels</h2>
+        <p>
+          India is one of the largest emitters of carbon dioxide, primarily due
+          to its reliance on coal for energy production, rapid
+          industrialization, and urbanization. The increasing CO2 levels in
+          India have significant consequences for air quality and public health,
+          as well as contributing to global climate change. Urban areas
+          experience much higher CO2 concentrations due to vehicular emissions
+          and industrial activities. Monitoring CO2 levels is vital for
+          developing effective policies aimed at reducing emissions and
+          improving air quality. This section presents a graph that showcases
+          the CO2 level trends in India from 2000 to 2020, emphasizing the
+          urgency of addressing emissions in the country.
+        </p>
+        <canvas id="indianCO2Chart"></canvas>
+      </section>
+
+      <section id="tables">
+        <h2>CO2 Data Comparison</h2>
+        <p>
+          The table below provides a comparative overview of CO2 levels over the
+          years for both global and Indian contexts. It highlights the average
+          CO2 concentrations recorded each year along with significant events
+          that have influenced these levels. This comparative analysis
+          emphasizes the critical need for climate action, as rising CO2 levels
+          contribute to global warming and associated environmental impacts.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Global CO2 Level (ppm)</th>
+              <th>Indian CO2 Level (ppm)</th>
+              <th>Significant Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>368.5</td>
+              <td>372.1</td>
+              <td>Stable industrial activity</td>
+            </tr>
+            <tr>
+              <td>2005</td>
+              <td>379.4</td>
+              <td>379.0</td>
+              <td>Increased emissions from industries</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>389.8</td>
+              <td>384.5</td>
+              <td>Record coal consumption</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>403.3</td>
+              <td>393.2</td>
+              <td>Paris Agreement signed</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>412.5</td>
+              <td>400.0</td>
+              <td>COVID-19 lockdowns impact emissions</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="photos">
+        <h2>Impact Photos</h2>
+        <p>
+          The effects of rising CO2 levels can be observed through various
+          environmental changes. Photographic evidence of pollution,
+          urbanization, and the impact of climate change provides a stark
+          reminder of the consequences of increasing greenhouse gas emissions.
+          This gallery showcases images that highlight air pollution in urban
+          areas, industrial emissions, and environmental degradation. By
+          observing these impacts, we hope to raise awareness about the urgent
+          need to combat CO2 emissions and promote sustainable practices.
+        </p>
+        <div class="photo-gallery">
+          <img src="img/download (2).jpg" alt="Air Pollution in India" />
+          <figcaption>Air Pollution in India</figcaption>
+          <img
+            src="img/GettyImages-1303511343.avif"
+            alt="Industrial Emissions"
+          />
+          <figcaption>Industrial Emissions</figcaption>
+          <img src="img/download (3).jpg" alt="Traffic Pollution" />
+          <figcaption>Traffic Pollution</figcaption>
+          <img src="img/download (4).jpg" alt="Climate Change Impacts" />
+          <figcaption>Climate Change Impacts</figcaption>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Carbon Dioxide Levels Project</p>
+    </footer>
+
+    <script src="co2.js"></script>
+  </body>
+</html>
